@@ -1,3 +1,4 @@
+
 import discord
 from discord.ext import commands
 import random
@@ -17,6 +18,7 @@ user_levels = {}
 async def on_ready():
     print("bot is ready!")
 
+#main function
 @bot.event
 async def on_message(message):
     
